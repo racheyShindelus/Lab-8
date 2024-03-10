@@ -1,0 +1,13 @@
+128.242.249.12 - - [30/Jan/2019:19:23:31 -0700] "GET /rss.xml HTTP/1.1" 304 -
+64.78.116.124 - - [02/Feb/2019:03:45:37 -0700] "GET /sites/all/themes/litejazz/js/header.jpg HTTP/1.1" 200 1562
+105.12.94.91 - - [02/Feb/2019:04:32:22 -0700] "GET / HTTP/1.0" 200 21454
+180.76.5.156 - - [16/Feb/2019:15:29:19 -0700] "GET /courses/cs54 HTTP/1.1" 200 11213
+174.50.148.8 - - [21/Feb/2019:20:05:44 -0700] "GET /cs52/sql/query.php HTTP/1.1" 200 2431
+208.115.111.75 - - [06/Mar/2019:17:14:32 -0700] "GET /node/38 HTTP/1.1" 200 9580
+199.21.99.72 - - [08/Mar/2019:08:16:21 -0700] "GET /pj/cis5ol/CIS5Welcome_files/filelist.xml HTTP/1.1" 200 270
+208.115.113.91 - - [29/Mar/2019:11:08:42 -0700] "GET /robots.txt HTTP/1.1" 200 1470
+71.142.241.232 - - [10/Apr/2019:22:48:09 -0700] "GET /pj/PJAssets/PJImages/greetings_art.jpg HTTP/1.1" 304 -
+76.246.40.237 - - [15/Apr/2019:08:32:30 -0700] "GET /sites/all/themes/litejazz/js/pickstyle.js HTTP/1.1" 200 219
+76.246.63.198 - - [04/May/2019:10:37:30 -0700] "GET /home/student/fkerslager HTTP/1.1" 404 4825
+199.21.99.72 - - [06/May/2019:02:16:55 -0700] "GET /node/42/backgnd.jpg HTTP/1.1" 200 26723
+76.246.63.198 - - [06/May/2019:11:25:32 -0700] "GET /sites/all/themes/litejazz/images/blue/footer2.png HTTP/1.1" 200 388

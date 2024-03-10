@@ -1,0 +1,42 @@
+#! /usr/bin/perl
+
+# Convert CSV file with student info into a file
+# that can be used to make accounts.
+#
+# Output is username, password, first name, last name
+
+while (<>)
+{
+    chomp;
+    my ($lname, $fname, $sid) = split(/,/);
+
+    $LIST_SEP = ",";  # Change array element separator to comma
+    my @line;
+    push @line, mkusername($fname, $lname);
+    push @line, mkpasswd($fname, $lname, $sid);
+    push @line, $fname;
+    push @line, $lname;
+    print "@line\n";    # Print the whole array
+} 
+
+# Return first initial, last name, all lower case
+sub mkusername {
+    my ($fname, $lname) = @_;
+
+    return lc(substr($fname, 0, 1) . $lname);
+}
+
+# Make password out of first name, last name, and student ID.
+sub mkpasswd {
+    my ($fname, $lname, $sid) = @_;
+
+    # Concatenate last name and first name. Convert to lower case.
+    # Truncate to 4 chars.
+    my $full_name = lc($lname . $fname);
+    my $first4 = substr($full_name, 0, 4);
+
+    # Append last 4 digits of student ID
+    my $password = $first4 . substr($sid, -4);
+
+    return $password;
+}

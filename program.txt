@@ -1,0 +1,20 @@
+CLASS project
+{
+  VAR x, y;
+  VAR age;
+
+  FUNCTION convert(VAR temp)
+  {
+    VAR zip = temp * 1.8;
+    VAR foo = zip + 32;
+    VAR kipper = foo * -2.547;
+    RETURN kipper;
+  }
+
+  INPUT age;
+  x = age * 7;
+  IF ( x <= 20.0 ) THEN y = x - convert(x);
+  ELSE y = convert(x);
+
+  PRINT y;
+}
